@@ -1,5 +1,15 @@
-resolver: lts-8.9
+resolver: lts-12.19
 packages:
 - '.'
 extra-deps:
+  - QuickCheck-2.12.6.1
+  - aeson-1.4.1.0
   - cereal-time-0.1.0.0
+  - hspec-2.6.0
+  - hspec-core-2.6.0
+  - hspec-discover-2.6.0
+  - http-api-data-0.4
+  - network-2.8.0.0
+  - servant-0.15
+  - servant-server-0.15
+  - tagged-0.8.6
